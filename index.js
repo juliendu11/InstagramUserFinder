@@ -10,10 +10,13 @@ const REGEX_PARANTHESES = /\(@([^)]+)\)/;
 /**
  * Main function for get usernames with google scrappe
  * @param {string} keyword
- * @param {number} [limit] - Result limit default is "100"
+ * @param {number} limit - Result limit default is "100"
  * @returns {string[]} - Usernames list
  */
-async function getUsersWithKeyword(keyword, limit = 100) {
+async function getUsersWithKeyword(keyword, limit) {
+  if (!limit){
+    limit = '100'
+  }
   if(typeof limit === 'number'){
     limit = limit.toString()
   }
