@@ -21,6 +21,16 @@ const instagram_user_finder = require ('@juliendu11/instagramuserfinder');
 (async () =>{
 console.log(await instagram_user_finder.getUsersWithKeyword('travel', 100)) //('keyword', limit (default is 100))
 })()
+
+Result example:
+[
+  'exploretagstravel',
+  'travelmehappy',
+  'travelawesome',
+  'taylor_fuller',
+  'melinoush.travel',
+....
+]
 ````
 
 
