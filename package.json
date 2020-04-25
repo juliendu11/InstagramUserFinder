@@ -4,7 +4,7 @@
   "description": "Find users by keyword, extract their username or snapchat if available",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/juliendu11/InstagramUserFinder/issues"
   },
-  "homepage": "https://github.com/juliendu11/InstagramUserFinder#readme"
+  "homepage": "https://github.com/juliendu11/InstagramUserFinder#readme",
+  "dependencies": {
+    "google-it": "^1.5.0"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "rewire": "^5.0.0"
+  }
 }
