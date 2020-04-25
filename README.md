@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/juliendu11/InstagramUserFinder.svg?branch=master)](https://travis-ci.org/juliendu11/InstagramUserFinder)
+
 # InstagramUserFinder
 Find users by keyword, extract their username
 
